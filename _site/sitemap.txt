@@ -1,0 +1,10 @@
+
+http://jreed91.github.io/Blog/archive.html
+http://jreed91.github.io/Blog/atom.xml
+http://jreed91.github.io/Blog/categories.html
+http://jreed91.github.io/Blog/index.html
+http://jreed91.github.io/Blog/rss.xml
+http://jreed91.github.io/Blog/sitemap.txt
+http://jreed91.github.io/Blog/tags.html
+
+http://jreed91.github.io/Blog/lessons/2011/12/29/jekyll-introduction
