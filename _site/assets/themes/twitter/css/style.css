@@ -1,5 +1,17 @@
 /* Custom container */
-
+.posts li {
+  list-style-type: none;
+}
+.posts ul {
+  margin-bottom: 120px;
+}
+a#headlink {
+  color: black;
+}
+a#headlink:hover {
+  color: #428bca;
+  text-decoration: underline;
+}
 
 
 

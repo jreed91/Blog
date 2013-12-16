@@ -1,0 +1,44 @@
+---
+layout: default
+title: Stream-of-Consciousness
+---
+<div class="row">
+<h1><center><a id="headlink" href="{{ HOME_PATH }}">{{ site.tagline }}</a></center></h1>
+</div>
+<hr>
+<div class="row">
+	<div class="col-md-12">
+		<ul class="posts">
+		  {% for post in paginator.posts %}
+			<div class="row">
+		  		<center>
+		    		<li><h3><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h3></center></li>
+				</center>
+		  	</div>
+		    <div class="row"><center>{{post.content}}</center></div>
+		    <div class="row"><center> Posted on: <span>{{ post.date | date_to_string }}</center></span></row>
+		  {% endfor %}
+		</ul>
+</div>
+</div>
+<div class="row">
+	<hr>
+</div>
+<div class="paging">
+	<ul class="pagination">
+		  {% if page.previous_page %}
+		    <li class="prev"><a href="/page{{ BASE_PATH }}{{ paginator.previous_page}}" class="previous">&larr;  Previous</a></li>
+		  {% else %}
+		    <li class="disabled"><a>&larr;  Previous</a></li>
+		  {% endif %}
+		   <li><span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span></li>
+		  {% if paginator.next_page %}
+		    <li class="next"><a href="/page{{ BASE_PATH }}{{ paginator.next_page }}" class="next">Next  &rarr;</a></li>
+		  {% else %}
+		    <li class="diabled "><a>Next &rarr;</a>
+		  {% endif %}
+	  </ul>
+</div>
+
+
+
