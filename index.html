@@ -2,43 +2,44 @@
 layout: default
 title: Stream-of-Consciousness
 ---
-<div class="row">
-<h1><center><a id="headlink" href="{{ HOME_PATH }}">{{ site.tagline }}</a></center></h1>
-</div>
-<hr>
-<div class="row">
-	<div class="col-md-12">
-		<ul class="posts">
+{% include JB/setup %}
+	
+		<ul>
 		  {% for post in paginator.posts %}
-			<div class="row">
-		  		<center>
-		    		<li><h3><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h3></center></li>
-				</center>
-		  	</div>
-		    <div class="row"><center>{{post.content}}</center></div>
-		    <div class="row"><center> Posted on: <span>{{ post.date | date_to_string }}</center></span></row>
+		  <div class="posts">
+    		<h1><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h1>
+
+		    <div>
+		    	{{post.content}}
+		    </div>
+
+		    <div class="date"> Posted on: <span>{{ post.date | date_to_string }}</span>
+		    	<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		    </div>
+		</div>
 		  {% endfor %}
 		</ul>
-</div>
-</div>
-<div class="row">
 	<hr>
 </div>
-<div class="paging">
-	<ul class="pagination">
-		  {% if page.previous_page %}
-		    <li class="prev"><a href="/page{{ BASE_PATH }}{{ paginator.previous_page}}" class="previous">&larr;  Previous</a></li>
-		  {% else %}
-		    <li class="disabled"><a>&larr;  Previous</a></li>
-		  {% endif %}
-		   <li><span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span></li>
-		  {% if paginator.next_page %}
-		    <li class="next"><a href="/page{{ BASE_PATH }}{{ paginator.next_page }}" class="next">Next  &rarr;</a></li>
-		  {% else %}
-		    <li class="diabled "><a>Next &rarr;</a>
-		  {% endif %}
-	  </ul>
-</div>
-
+   <div class="main-container">
+            <div class="main wrapper clearfix">
+				<div class="paging">
+					<ul class="pagination">
+						  {% if page.previous_page %}
+						    <li class="prev"><a href="/page{{ BASE_PATH }}{{ paginator.previous_page}}" class="previous">&larr;  Previous</a></li>
+						  {% else %}
+						    <li class="disabled">&larr;  Previous</li>
+						  {% endif %}
+						   <li class="middle"><span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span></li>
+						  {% if paginator.next_page %}
+						    <li class="next"><a href="/page{{ BASE_PATH }}{{ paginator.next_page }}" class="next">Next  &rarr;</a></li>
+						  {% else %}
+						    <li class="diabled">Next &rarr;</li>
+						  {% endif %}
+					  </ul>
+				</div>
+			</div>
+		</div>
 
 

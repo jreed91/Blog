@@ -1,4 +1,4 @@
-<div class="container">
+<div class="posts">
   <div class="page-header">
     <h1>{% if page.link == empty %}{{ page.title }}{% endif %}<a href="{{ page.link }}">{{ page.title }}</a> {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
   </div>
@@ -33,13 +33,13 @@
         {% if page.previous %}
           <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
         {% else %}
-          <li class="disabled"><a>&larr; Previous</a></li>
+          <li class="disabled">&larr; Previous</li>
         {% endif %}
-          <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
+          <li class="middle"><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
         {% if page.next %}
-          <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
+          <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}" class="next">Next &rarr;</a></li>
         {% else %}
-          <li class="disabled"><a>Next &rarr;</a>
+          <li class="disabled">Next &rarr;</li>
         {% endif %}
         </ul>
       </div>
