@@ -91,10 +91,12 @@ nav ul {
 
 .title {
     text-align: center;
-    font-size: 1em;
+    font-size: 1.2em;
     text-decoration: none;
 }
-
+.title a {
+    text-decoration: none;
+}
 nav a {
     display: block;
     margin-bottom: 10px;
