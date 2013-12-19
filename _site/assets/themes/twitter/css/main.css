@@ -91,8 +91,15 @@ nav ul {
 
 .title {
     text-align: center;
+    font-size: 1.2em;
+    text-decoration: none;
 }
-
+.title a {
+    text-decoration: none;
+}
+.title a:active {
+    text-decoration: none;
+}
 nav a {
     display: block;
     margin-bottom: 10px;
@@ -830,6 +837,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9adaeb8', e
 }
 .posts {
     margin-bottom: 100px;
+}
+.posts h1 {
+    color: #58585E;
+    font-size: 24px;
+    font-weight: 400;
 }
 .posts li {
     list-style-type: none;
