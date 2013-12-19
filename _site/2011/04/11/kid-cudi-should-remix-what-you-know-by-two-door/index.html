@@ -23,36 +23,7 @@
     <script src="/assets/themes/twitter/js/modernizr-2.6.2.min.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
-    <script>
-            $(".icon-menu").click(function () {
-                $(".menu-options").toggle('slow');
-                $('.hero-text').slideToggle('slow');
-            });
-            var text1 = ["Designer", "Music Fan", "Iowan", "Dribbbler"];
-            var text2 = ["Developer", "UI Fan", "Hawkeye", "Pixel Pusher"];
-            var counter = 0;
-            var elem1 = document.getElementById("first-word");
-            var elem2 = document.getElementById("second-word");
-            setInterval(change, 3000);
-            function change() {
-             elem1.innerHTML = text1[counter];
-             elem2.innerHTML = text2[counter];
-                counter++;
-                if(counter >= text1.length) { counter = 0; }
-            };
-            $(document).ready(function(){
-  $('iframe[src*="embed.spotify.com"]').each( function() {
-    $(this).css('width',$(this).parent(1).css('width'));
-    $(this).attr('src',$(this).attr('src'));
-  });
-});
-$(window).resize(function() {
-  $('iframe[src*="embed.spotify.com"]').each( function() {
-    $(this).css('width',$(this).parent(1).css('width'));
-    $(this).attr('src',$(this).attr('src'));
-  });
-});
-        </script>
+
     <!-- Le fav and touch icons -->
   <!-- Update these with your own images
     <link rel="shortcut icon" href="images/favicon.ico">
@@ -330,6 +301,36 @@ $(window).resize(function() {
             </div>
       </div>
     
+    <script>
+            $(".icon-menu").click(function () {
+                $(".menu-options").toggle('slow');
+                $('.hero-text').slideToggle('slow');
+            });
+            var text1 = ["Designer", "Music Fan", "Iowan", "Dribbbler"];
+            var text2 = ["Developer", "UI Fan", "Hawkeye", "Pixel Pusher"];
+            var counter = 0;
+            var elem1 = document.getElementById("first-word");
+            var elem2 = document.getElementById("second-word");
+            setInterval(change, 3000);
+            function change() {
+             elem1.innerHTML = text1[counter];
+             elem2.innerHTML = text2[counter];
+                counter++;
+                if(counter >= text1.length) { counter = 0; }
+            };
+            $(document).ready(function(){
+  $('iframe[src*="embed.spotify.com"]').each( function() {
+    $(this).css('width',$(this).parent(1).css('width'));
+    $(this).attr('src',$(this).attr('src'));
+  });
+});
+$(window).resize(function() {
+  $('iframe[src*="embed.spotify.com"]').each( function() {
+    $(this).css('width',$(this).parent(1).css('width'));
+    $(this).attr('src',$(this).attr('src'));
+  });
+});
+        </script>
   </body>
 </html>
 
