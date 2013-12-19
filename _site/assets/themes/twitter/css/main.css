@@ -1002,6 +1002,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9adaeb8', e
     }
     .menu-options{
     display: block;
+    margin-left: 5%;
 }
 .middle {
     margin-left: 33%;
