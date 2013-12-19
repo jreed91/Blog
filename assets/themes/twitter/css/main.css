@@ -871,16 +871,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9adaeb8', e
     font-size: 18px;
 }
 .paging ul {
-    padding: 1%;
-    font-size: 18px;
+    
+}
+.prev {
+    margin-left: 0 auto;
+    float: left;
+    display: inline-block;
 }
 .paging li {
     list-style-type: none;
     display: inline-block;
 }
-.next {
+.middle {
+    margin-left: 8%;
+    margin-right: 8%;
+    padding: 0;
     display: inline-block;
+}
+.next{
+    margin-right: 0px;
     float: right;
+    display: inline-block;
 }
 
 
@@ -956,9 +967,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9adaeb8', e
     #lastfm dd {
         margin-right: 25%;
     }
-    .middle {
-    margin-left: 35%;
-    }
+    
 
 
 }
@@ -988,6 +997,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9adaeb8', e
     }
     .menu-options{
     display: block;
+}
+.middle {
+    margin-left: 33%;
+    margin-right: 33%;
+    padding: 0;
+    display: inline-block;
 }
 
 /* ============

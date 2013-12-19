@@ -27,15 +27,15 @@ title: Stream-of-Consciousness
 				<div class="paging">
 					<ul class="pagination">
 						  {% if page.previous_page %}
-						    <li class="prev"><a href="/page{{ BASE_PATH }}{{ paginator.previous_page}}" class="previous">&larr;  Previous</a></li>
+						    <li class="prev"><a href="{{ BASE_PATH }}/page{{ paginator.previous_page }}" class="previous">&larr;  Previous</a></li>
 						  {% else %}
-						    <li class="disabled">&larr;  Previous</li>
+						    <li class="disabled prev">&larr;  Previous</li>
 						  {% endif %}
 						   <li class="middle"><span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span></li>
 						  {% if paginator.next_page %}
-						    <li class="next"><a href="/page{{ BASE_PATH }}{{ paginator.next_page }}" class="next">Next  &rarr;</a></li>
+						    <li class="next"><a href="{{ BASE_PATH }}/page{{ paginator.next_page }}" class="next">Next  &rarr;</a></li>
 						  {% else %}
-						    <li class="diabled">Next &rarr;</li>
+						    <li class="diabled next">Next &rarr;</li>
 						  {% endif %}
 					  </ul>
 				</div>
