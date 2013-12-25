@@ -6,5 +6,4 @@ category: ""
 tags: []
 ---
 {% include JB/setup %}
-
-<iframe src="http://www.flickr.com/photos/jreed91/11459087156/player/" width="500" height="418" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+![Allie]({{ ASSET_PATH }}images/IMG_0039.jpg)
