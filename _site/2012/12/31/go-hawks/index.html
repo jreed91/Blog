@@ -21,6 +21,7 @@
     <link href="/assets/themes/twitter/css/normalize.min.css" rel="stylesheet" type="text/css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="/assets/themes/twitter/js/modernizr-2.6.2.min.js"></script>
+    <script src="/assets/themes/twitter/js/readingTime.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
 
@@ -208,7 +209,7 @@
             </header>
             <div class="hero-text animated fadeInUp">
                 <p class="hero-small">I'm Jacob Reed and I'm a</p>
-                <p class="hero-large"><span id="first-word">Designer</span> <span class="and">&</span> <span id="second-word">Developer</span></p>
+                <p class="hero-large"><span id="first-word">Writer</span> <span class="and">&</span> <span id="second-word">Blogger</span></p>
             </div>
         </div>
 
@@ -227,7 +228,9 @@
   <div class="col-md-12">
       <div class="date">
         <h3><span>31 December 2012</span></h3>
+        <div class="pull-right" id="readingTime"></div>
       </div>
+
       <div class="content">
         <p><img src="http://31.media.tumblr.com/4121b70cca33cae6c60c2b853a476480/tumblr_mfwy2a7iPK1qi8pkco1_1280.jpg" alt="" /></p>
       </div>
@@ -300,8 +303,8 @@
                 $(".menu-options").toggle('slow');
                 $('.hero-text').slideToggle('slow');
             });
-            var text1 = ["Designer", "Music Fan", "Iowan", "Dribbbler"];
-            var text2 = ["Developer", "UI Fan", "Hawkeye", "Pixel Pusher"];
+            var text1 = ["Photographer","Iowan"];
+            var text2 = ["Techie", "Hawkeye"];
             var counter = 0;
             var elem1 = document.getElementById("first-word");
             var elem2 = document.getElementById("second-word");
