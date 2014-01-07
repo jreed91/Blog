@@ -8,9 +8,6 @@ tags: []
 ---
 {% include JB/setup %}
 
-That Terrible Word
-==================
-
 On December 19th, the day after my 22nd birthday, I came to what I hoped was going to be a normal winter break where we get together with all our family and celebrate the holidays and our numerous birthdays. But this year was not like the rest, not even close.
 
 My father has been dealing with a lot of pain over the past year. About a year ago he went into the doctors because of pain in his hip and back, he got an mri and it showed nothing but a herniated disk and some arthritis. Jump all the way to this November and he was still suffering from the same pain. His doctor figured it was just his herniated disk and had no reason to order another MRI but on a gut feeling decided to order another one. This turned out to be a decision that will forever change my father's life and my entire family's.
