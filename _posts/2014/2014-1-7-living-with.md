@@ -3,6 +3,7 @@ layout: post
 title: "That Terrible Word"
 description: ""
 category: ""
+publish: 2014-1-07
 tags: []
 ---
 {% include JB/setup %}
