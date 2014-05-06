@@ -1,6 +1,8 @@
 name: JR.
 description: Stream-Of-Consciousness
-url: http://jreed91.github.io
+url: http://jreed91.github.io/Blog
 markdown: redcarpet
 pygments: true
 paginate: 4
+baseurl: /Blog
+
