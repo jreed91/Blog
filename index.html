@@ -6,7 +6,7 @@ title: Your New Jekyll Site
 <div id="home">
 	{% for post in paginator.posts %}
 	    <ul class="posts">
-	    <li><a href="{{ post.url }}">{{ post.title }}</a><br><span class="meta">{{ post.date | date_to_string }}</span></li>
+	    <li><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a><br><span class="meta">{{ post.date | date_to_string }}</span></li>
 	        {{ post.content | strip_html | truncatewords:75}}
 	    </ul>
 	{% endfor %}
