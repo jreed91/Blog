@@ -8,7 +8,7 @@ tags:
 title: Yes that is a full on marching band. so sick
 layout: post
 ---
-{% include JB/setup %}
+
 
 
 

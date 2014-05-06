@@ -9,6 +9,6 @@ title: lupecudder oh shit
 layout: post
 ---
 
-{% include JB/setup %}
+
 
 

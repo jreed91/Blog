@@ -9,6 +9,6 @@ title: Can&#8217;t wait to see the full concert sounded so sick
 layout: post
 ---
 
-{% include JB/setup %}
+
 ![](http://25.media.tumblr.com/tumblr_lid0mi7ePw1qi8pkco1_1280.jpg)
 

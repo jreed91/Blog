@@ -7,7 +7,7 @@ tags:
 title: Family Tree - Kings of Leon
 layout: post
 ---
-{% include JB/setup %}
+
 <div>
 <iframe src="https://embed.spotify.com/?uri=spotify:track:7FB4AMETSW8jALAPNRKw7Y" frameborder="0" width="640" height="720" >.</iframe>
 </div>

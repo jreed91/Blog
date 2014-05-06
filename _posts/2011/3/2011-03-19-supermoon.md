@@ -8,7 +8,7 @@ tags:
 title: Supermoon
 layout: post
 ---
-{% include JB/setup %}
+
 
 ![](http://31.media.tumblr.com/tumblr_lic2e5gzGK1qi8pkco1_1280.jpg)
 

@@ -8,7 +8,6 @@ tags:
 title: null
 layout: post
 ---
-{% include JB/setup %}
 
 First Post
 

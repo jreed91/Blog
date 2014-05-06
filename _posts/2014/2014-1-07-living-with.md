@@ -6,7 +6,6 @@ category: ""
 publish: 2014-1-07
 tags: []
 ---
-{% include JB/setup %}
 
 On December 19th, the day after my 22nd birthday, I came to what I hoped was going to be a normal winter break where we get together with all our family and celebrate the holidays and our numerous birthdays. But this year was not like the rest, not even close.
 

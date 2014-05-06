@@ -8,7 +8,7 @@ tags:
 title: Little thing I cooked up
 layout: post
 ---
-{% include JB/setup %}
+
 
 ![](http://24.media.tumblr.com/tumblr_lijd4wtX5P1qi8pkco1_1280.jpg)
 

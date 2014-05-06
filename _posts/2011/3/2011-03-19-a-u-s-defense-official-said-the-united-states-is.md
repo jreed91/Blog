@@ -8,7 +8,6 @@ tags:
 title: undefined
 layout: post
 ---
-{% include JB/setup %}
 
 
 

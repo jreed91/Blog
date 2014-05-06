@@ -1,0 +1,68 @@
+/* line 14, ../../_sass/grid.scss */
+.container {
+  *zoom: 1;
+  max-width: 71em;
+  _width: 71em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 38, ../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (min-width: 71em) {
+  /* line 14, ../../_sass/grid.scss */
+  .container {
+    max-width: 71em;
+  }
+}
+
+@media (min-width: 71em) {
+  /* line 21, ../../_sass/grid.scss */
+  .header {
+    width: 100%;
+    float: left;
+    margin-right: 1.40845%;
+  }
+
+  /* line 22, ../../_sass/grid.scss */
+  .main {
+    width: 100%;
+    float: left;
+    margin-right: 1.40845%;
+  }
+
+  /* line 23, ../../_sass/grid.scss */
+  .content {
+    width: 100%;
+    float: left;
+    margin-right: 1.40845%;
+  }
+
+  /* line 24, ../../_sass/grid.scss */
+  .footer {
+    width: 100%;
+    float: left;
+    margin-right: 1.40845%;
+  }
+}
+/* line 27, ../../_sass/grid.scss */
+.fullpage {
+  clear: both;
+  margin-left: -1em;
+  padding-left: 1em;
+  margin-right: -1em;
+  padding-right: 1em;
+}
+@media (min-width: 71em) {
+  /* line 27, ../../_sass/grid.scss */
+  .fullpage {
+    margin: 0;
+    padding-left: 16.90141%;
+    padding-right: 25.35211%;
+  }
+}

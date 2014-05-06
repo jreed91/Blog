@@ -8,7 +8,7 @@ tags:
 title: Band i&#8217;ve been sleeping on. Tourist History is a great debut album for them
 layout: post
 ---
-{% include JB/setup %}
+
 
 
 
