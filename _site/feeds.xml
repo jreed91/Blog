@@ -7,6 +7,25 @@
 		<atom:link href="http://jreed91.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Atlanta</title>
+				<description>&lt;h1&gt;Photos from Atlanta&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://photos-f.ak.instagram.com/hphotos-ak-ash/914313_453863558050397_1304750290_n.jpg&quot; alt=&quot;Atlanta_1&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://photos-h.ak.instagram.com/hphotos-ak-frc/10175374_694010567309551_782620992_n.jpg&quot; alt=&quot;Atlanta_2&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://photos-h.ak.instagram.com/hphotos-ak-ash/10245984_522047981237863_1911259581_n.jpg&quot; alt=&quot;Atlanta_3&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://photos-d.ak.instagram.com/hphotos-ak-prn/10009256_606460469443259_607631728_n.jpg&quot; alt=&quot;Atlanta_4&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://photos-a.ak.instagram.com/hphotos-ak-prn/924323_765797493432592_629604941_n.jpg&quot; alt=&quot;Atlanta_5&quot;&gt;&lt;/p&gt;
+</description>
+				<pubDate>Sat, 09 May 2015 00:00:00 -0500</pubDate>
+				<link>http://jreed91.github.io/2015/05/09/Atlanta.html</link>
+				<guid isPermaLink="true">http://jreed91.github.io/2015/05/09/Atlanta.html</guid>
+			</item>
+		
+			<item>
 				<title>Christmas Photos</title>
 				<description>&lt;p&gt;&lt;img src=&quot;images/IMG_0039.jpg&quot; alt=&quot;Allie&quot;&gt;&lt;/p&gt;
 </description>
@@ -127,15 +146,6 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 				<pubDate>Sun, 30 Jun 2013 15:17:25 -0500</pubDate>
 				<link>http://jreed91.github.io/2013/06/30/Slow_It_Down.html</link>
 				<guid isPermaLink="true">http://jreed91.github.io/2013/06/30/Slow_It_Down.html</guid>
-			</item>
-		
-			<item>
-				<title>Jolene - Zac Brown Band</title>
-				<description>&lt;iframe src=&quot;https://embed.spotify.com/?uri=spotify:track:3B0rQ4M2t5f3K3SqOozz5P&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; width=&quot;640&quot; height=&quot;720&quot;&gt;.&lt;/iframe&gt;
-</description>
-				<pubDate>Mon, 24 Jun 2013 15:17:25 -0500</pubDate>
-				<link>http://jreed91.github.io/2013/06/24/Jolene.html</link>
-				<guid isPermaLink="true">http://jreed91.github.io/2013/06/24/Jolene.html</guid>
 			</item>
 		
 	</channel>
