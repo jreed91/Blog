@@ -23,8 +23,8 @@ $break          : 12;
   .content { @include span-columns(12,$break); }
   .footer { @include span-columns(12, $break); }
   .post {
-    @include span-columns(8,$break);
-    @include prefix(2, $break);
+    @include span-columns(9,$break);
+    @include prefix(1.7, $break);
   }
 
 }

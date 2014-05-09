@@ -176,6 +176,16 @@ a:visited { color: #90ADF0; }
   p {
     color: #333;
   }
+  .img_left {
+    float: left;
+    padding: 2%;
+    max-width: 300px;
+  }
+  .img_right {
+    float: right;
+    padding: 2%;
+    max-width: 300px;
+  }
   pre {
     border: 1px solid #ddd;
     background-color: #eef;
