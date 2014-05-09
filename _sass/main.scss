@@ -14,7 +14,7 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: .9rem 'Open Sans', Helvetica, sans-serif;
+  font: 1rem 'Lora', serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -35,6 +35,14 @@ a:visited { color: #90ADF0; }
 #home {
   h1 {
     font-size: 150%;
+  }
+  .thumbnail {
+     height: 200px;
+  background: no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   }
 }
 .posts {
@@ -63,11 +71,11 @@ a:visited { color: #90ADF0; }
 /*****************************************************************************/
 
 .main {
-  font-size: 115%;
+  font-size: 135%;
   text-align: justify;
   max-width: 100%;
   margin: 2em auto 2em;
-  line-height: 1.5em;
+  line-height: 1.7em;
 }
 .content {
   h2 {
@@ -81,6 +89,7 @@ a:visited { color: #90ADF0; }
 }
 .header {
   margin-top: 20px;
+  margin-bottom: 20px;
   text-align: center;
 }
 .header a {
@@ -96,7 +105,14 @@ a:visited { color: #90ADF0; }
     }
   }
 }
-
+.header-img {
+  height: 600px;
+  background: no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .title {
   font-family: 'Dosis';
   display: inline-block;

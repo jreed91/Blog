@@ -49,20 +49,22 @@
     float: left;
     margin-right: 1.40845%;
   }
+
+  /* line 25, ../../_sass/grid.scss */
+  .post {
+    width: 66.19718%;
+    float: left;
+    margin-right: 1.40845%;
+    padding-left: 16.90141%;
+  }
 }
-/* line 27, ../../_sass/grid.scss */
+/* line 32, ../../_sass/grid.scss */
 .fullpage {
   clear: both;
-  margin-left: -1em;
-  padding-left: 1em;
-  margin-right: -1em;
-  padding-right: 1em;
 }
 @media (min-width: 71em) {
-  /* line 27, ../../_sass/grid.scss */
+  /* line 32, ../../_sass/grid.scss */
   .fullpage {
     margin: 0;
-    padding-left: 16.90141%;
-    padding-right: 25.35211%;
   }
 }

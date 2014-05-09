@@ -3,16 +3,16 @@
 	<channel>
 		<title>JR.</title>
 		<description>Stream-Of-Consciousness</description>		
-		<link>http://jreed91.github.io/Blog</link>
-		<atom:link href="http://jreed91.github.io/Blog/feed.xml" rel="self" type="application/rss+xml" />
+		<link>http://jreed91.github.io</link>
+		<atom:link href="http://jreed91.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Christmas Photos</title>
 				<description>&lt;p&gt;&lt;img src=&quot;images/IMG_0039.jpg&quot; alt=&quot;Allie&quot;&gt;&lt;/p&gt;
 </description>
 				<pubDate>Tue, 24 Dec 2013 00:00:00 -0600</pubDate>
-				<link>http://jreed91.github.io/Blog/2013/12/24/christmas-photos.html</link>
-				<guid isPermaLink="true">http://jreed91.github.io/Blog/2013/12/24/christmas-photos.html</guid>
+				<link>http://jreed91.github.io/2013/12/24/christmas-photos.html</link>
+				<guid isPermaLink="true">http://jreed91.github.io/2013/12/24/christmas-photos.html</guid>
 			</item>
 		
 			<item>
@@ -48,8 +48,8 @@
 &lt;p&gt;&lt;img src=&quot;http://www.wepluggoodmusic.com/wp-content/uploads/2013/10/haim-days-are-gone.png&quot; alt=&quot;Days Are Gone&quot;&gt;&lt;/p&gt;
 </description>
 				<pubDate>Wed, 18 Dec 2013 00:00:00 -0600</pubDate>
-				<link>http://jreed91.github.io/Blog/2013/12/18/my-top-5-albums-of-2013.html</link>
-				<guid isPermaLink="true">http://jreed91.github.io/Blog/2013/12/18/my-top-5-albums-of-2013.html</guid>
+				<link>http://jreed91.github.io/2013/12/18/my-top-5-albums-of-2013.html</link>
+				<guid isPermaLink="true">http://jreed91.github.io/2013/12/18/my-top-5-albums-of-2013.html</guid>
 			</item>
 		
 			<item>
@@ -57,8 +57,8 @@
 				<description>&lt;p&gt;&lt;img src=&quot;http://31.media.tumblr.com/6548c0df2ce153073d6eca01ae0edd54/tumblr_mv8sh4wxKk1qi8pkco1_1280.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 </description>
 				<pubDate>Fri, 25 Oct 2013 15:48:40 -0500</pubDate>
-				<link>http://jreed91.github.io/Blog/2013/10/25/perfect-day-for-a-fall-run.html</link>
-				<guid isPermaLink="true">http://jreed91.github.io/Blog/2013/10/25/perfect-day-for-a-fall-run.html</guid>
+				<link>http://jreed91.github.io/2013/10/25/perfect-day-for-a-fall-run.html</link>
+				<guid isPermaLink="true">http://jreed91.github.io/2013/10/25/perfect-day-for-a-fall-run.html</guid>
 			</item>
 		
 			<item>
@@ -68,8 +68,8 @@
 &lt;/div&gt;
 </description>
 				<pubDate>Mon, 23 Sep 2013 15:17:25 -0500</pubDate>
-				<link>http://jreed91.github.io/Blog/2013/09/23/Family_Tree.html</link>
-				<guid isPermaLink="true">http://jreed91.github.io/Blog/2013/09/23/Family_Tree.html</guid>
+				<link>http://jreed91.github.io/2013/09/23/Family_Tree.html</link>
+				<guid isPermaLink="true">http://jreed91.github.io/2013/09/23/Family_Tree.html</guid>
 			</item>
 		
 			<item>
@@ -77,8 +77,8 @@
 				<description>&lt;p&gt;&lt;img src=&quot;http://25.media.tumblr.com/5315b327ecec8660521b0542b1e1f962/tumblr_mr5svfGSOl1qi8pkco1_1280.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 </description>
 				<pubDate>Wed, 07 Aug 2013 06:50:02 -0500</pubDate>
-				<link>http://jreed91.github.io/Blog/2013/08/07/iowa.html</link>
-				<guid isPermaLink="true">http://jreed91.github.io/Blog/2013/08/07/iowa.html</guid>
+				<link>http://jreed91.github.io/2013/08/07/iowa.html</link>
+				<guid isPermaLink="true">http://jreed91.github.io/2013/08/07/iowa.html</guid>
 			</item>
 		
 			<item>
@@ -98,8 +98,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;Jekyll&amp;#39;s GitHub repo&lt;/a&gt;.&lt;/p&gt;
 </description>
 				<pubDate>Sun, 04 Aug 2013 22:16:30 -0500</pubDate>
-				<link>http://jreed91.github.io/Blog/jekyll/update/2013/08/04/welcome-to-jekyll.html</link>
-				<guid isPermaLink="true">http://jreed91.github.io/Blog/jekyll/update/2013/08/04/welcome-to-jekyll.html</guid>
+				<link>http://jreed91.github.io/jekyll/update/2013/08/04/welcome-to-jekyll.html</link>
+				<guid isPermaLink="true">http://jreed91.github.io/jekyll/update/2013/08/04/welcome-to-jekyll.html</guid>
 			</item>
 		
 			<item>
@@ -107,8 +107,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 				<description>&lt;iframe src=&quot;https://embed.spotify.com/?uri=spotify:track:6ZxxUymQlorv4DgXuHiRzd&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; width=&quot;640&quot; height=&quot;720&quot;&gt;.&lt;/iframe&gt;
 </description>
 				<pubDate>Sun, 04 Aug 2013 15:17:25 -0500</pubDate>
-				<link>http://jreed91.github.io/Blog/2013/08/04/Byegone.html</link>
-				<guid isPermaLink="true">http://jreed91.github.io/Blog/2013/08/04/Byegone.html</guid>
+				<link>http://jreed91.github.io/2013/08/04/Byegone.html</link>
+				<guid isPermaLink="true">http://jreed91.github.io/2013/08/04/Byegone.html</guid>
 			</item>
 		
 			<item>
@@ -116,8 +116,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 				<description>&lt;p&gt;&lt;img src=&quot;http://24.media.tumblr.com/27a68faceba567d91b994cf8c5d4303e/tumblr_mq7p76n7jG1qi8pkco1_1280.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 </description>
 				<pubDate>Fri, 19 Jul 2013 20:52:18 -0500</pubDate>
-				<link>http://jreed91.github.io/Blog/2013/07/19/heartland-jam.html</link>
-				<guid isPermaLink="true">http://jreed91.github.io/Blog/2013/07/19/heartland-jam.html</guid>
+				<link>http://jreed91.github.io/2013/07/19/heartland-jam.html</link>
+				<guid isPermaLink="true">http://jreed91.github.io/2013/07/19/heartland-jam.html</guid>
 			</item>
 		
 			<item>
@@ -125,8 +125,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 				<description>&lt;iframe src=&quot;https://embed.spotify.com/?uri=spotify:track:3YQObV9iW6T7xiHx0yB0CG&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; width=&quot;640&quot; height=&quot;720&quot;&gt;.&lt;/iframe&gt;
 </description>
 				<pubDate>Sun, 30 Jun 2013 15:17:25 -0500</pubDate>
-				<link>http://jreed91.github.io/Blog/2013/06/30/Slow_It_Down.html</link>
-				<guid isPermaLink="true">http://jreed91.github.io/Blog/2013/06/30/Slow_It_Down.html</guid>
+				<link>http://jreed91.github.io/2013/06/30/Slow_It_Down.html</link>
+				<guid isPermaLink="true">http://jreed91.github.io/2013/06/30/Slow_It_Down.html</guid>
 			</item>
 		
 			<item>
@@ -134,8 +134,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 				<description>&lt;iframe src=&quot;https://embed.spotify.com/?uri=spotify:track:3B0rQ4M2t5f3K3SqOozz5P&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; width=&quot;640&quot; height=&quot;720&quot;&gt;.&lt;/iframe&gt;
 </description>
 				<pubDate>Mon, 24 Jun 2013 15:17:25 -0500</pubDate>
-				<link>http://jreed91.github.io/Blog/2013/06/24/Jolene.html</link>
-				<guid isPermaLink="true">http://jreed91.github.io/Blog/2013/06/24/Jolene.html</guid>
+				<link>http://jreed91.github.io/2013/06/24/Jolene.html</link>
+				<guid isPermaLink="true">http://jreed91.github.io/2013/06/24/Jolene.html</guid>
 			</item>
 		
 	</channel>

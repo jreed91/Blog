@@ -20,15 +20,18 @@ $break          : 12;
 @include at-breakpoint($break) {
   .header { @include span-columns(12,$break); }
   .main { @include span-columns(12, $break); }
-    .content { @include span-columns(12,$break); }
-    .footer { @include span-columns(12, $break); }
+  .content { @include span-columns(12,$break); }
+  .footer { @include span-columns(12, $break); }
+  .post {
+    @include span-columns(8,$break);
+    @include prefix(2, $break);
+  }
+
 }
 
 .fullpage {
   clear: both;
-  @include bleed($grid-padding);
   @include at-breakpoint($break) {
     margin: 0;
-    @include pad(2,3,$break);
   }
 }

@@ -6,14 +6,15 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
-        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
-        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/syntax.css">
-        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/screen.css">
-        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/grid.css">
-        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/fonts.css">
+        <link rel="stylesheet" href="{{site.baseurl}}assets/css/main.css">
+        <link rel="stylesheet" href="{{site.baseurl}}assets/css/syntax.css">
+        <link rel="stylesheet" href="{{site.baseurl}}assets/css/screen.css">
+        <link rel="stylesheet" href="{{site.baseurl}}assets/css/grid.css">
+        <link rel="stylesheet" href="{{site.baseurl}}assets/css/fonts.css">
 
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Lora:400,700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Dosis:500' rel='stylesheet' type='text/css'>
+
 
     </head>
     <body>
@@ -23,11 +24,9 @@
               <h1 class="title"><a href="{{site.baseurl}}">{{ site.name }}</a></h1>
               <h4>{{ site.description }}</h4>
             </div>
-            <div class="main">
-              <div class="content">
+        </div>
                 {{ content }}
-              </div>
-            </div>
+          <div class="container">
             <div class="footer">
               <div class="contact">
                 <p>
@@ -44,7 +43,10 @@
                 </p>
               </div>
             </div>
-        </div> <!-- /container -->
-
+          </div>
+          <script src="{{site.baseurl}}assets/js/scrollReveal.min.js"></script>
+          <script>
+            window.scrollReveal = new scrollReveal();
+          </script>
     </body>
 </html>
