@@ -6,7 +6,15 @@ title: Jacob Reed - Stream-Of-Consciousness
 	<div id="home" data-scroll-reveal="enter bottom move 10px, after 0.2s">
 		{% for post in paginator.posts %}
 		    <ul  class="posts">
-		    <li ><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><br><span class="meta">{{ post.date | date_to_string }}</span></li>
+		    <li >
+		    {% if post.link %}
+		     <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> - <a href="{{ post.link }}">∞</a>
+		    {% else %}
+		     <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+		    {% endif %}
+		   
+
+		    <br><span class="meta">{{ post.date | date_to_string }}</span></li>
 		    {% if post.thumbnail %}
 		    	<a href="{{ site.baseurl }}{{ post.url }}">
 			    	<div class="center">

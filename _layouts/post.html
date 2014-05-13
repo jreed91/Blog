@@ -12,7 +12,12 @@ layout: default
 <div class="container">
 	<div class="main">
 	    <div class="content">
-			<h2 data-scroll-reveal="enter bottom move 10px">{{ page.title }}</h2>
+	    {% if page.link %}
+	    	<h2 data-scroll-reveal="enter bottom move 10px">{{ page.title }} - <a href="{{ page.link }}">∞</a></h2>
+	    {% else %}
+	    	<h2 data-scroll-reveal="enter bottom move 10px">{{ page.title }}</h2>
+	    {% endif %}
+			
 			<p class="meta">By Jacob Reed - {{ page.date | date_to_string }}</p>
 
 			<div class="post" data-scroll-reveal="enter bottom move 10px">
