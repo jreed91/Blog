@@ -51,6 +51,13 @@
   }
 
   /* line 25, ../../_sass/grid.scss */
+  .tags {
+    width: 100%;
+    float: left;
+    margin-right: 1.40845%;
+  }
+
+  /* line 26, ../../_sass/grid.scss */
   .post {
     width: 74.64789%;
     float: left;
@@ -58,12 +65,12 @@
     padding-left: 14.78873%;
   }
 }
-/* line 32, ../../_sass/grid.scss */
+/* line 33, ../../_sass/grid.scss */
 .fullpage {
   clear: both;
 }
 @media (min-width: 71em) {
-  /* line 32, ../../_sass/grid.scss */
+  /* line 33, ../../_sass/grid.scss */
   .fullpage {
     margin: 0;
   }

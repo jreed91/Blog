@@ -229,6 +229,24 @@ a:visited { color: #90ADF0; }
     }
   }
 }
+.tags {
+  margin-top: 2%;
+  text-align: center;
+  a {
+    color: #939492;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #90ADF0;
+  }
+  ul{
+    display: inline-block;
+  }
+  li {
+    list-style-type: none;
+    display: inline-block;
+  }
+}
 
 /*****************************************************************************/
 /*

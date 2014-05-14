@@ -269,21 +269,45 @@ a:visited {
   background-color: #333;
 }
 
+/* line 232, ../../_sass/main.scss */
+.tags {
+  margin-top: 2%;
+  text-align: center;
+}
+/* line 235, ../../_sass/main.scss */
+.tags a {
+  color: #939492;
+  text-decoration: none;
+}
+/* line 239, ../../_sass/main.scss */
+.tags a:hover {
+  color: #90ADF0;
+}
+/* line 242, ../../_sass/main.scss */
+.tags ul {
+  display: inline-block;
+}
+/* line 245, ../../_sass/main.scss */
+.tags li {
+  list-style-type: none;
+  display: inline-block;
+}
+
 /*****************************************************************************/
 /*
 /* Pagination
 /*
 /*****************************************************************************/
-/* line 239, ../../_sass/main.scss */
+/* line 257, ../../_sass/main.scss */
 .pagination .prev {
   float: left;
 }
-/* line 242, ../../_sass/main.scss */
+/* line 260, ../../_sass/main.scss */
 .pagination .next {
   float: right;
   margin-top: -30px;
 }
-/* line 246, ../../_sass/main.scss */
+/* line 264, ../../_sass/main.scss */
 .pagination .number {
   text-align: center;
 }
