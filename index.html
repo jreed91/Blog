@@ -7,6 +7,13 @@ title: Jacob Reed - Stream-Of-Consciousness
 		{% for post in paginator.posts %}
 		    <ul  class="posts">
 		    <li >
+		     {% if post.thumbnail %}
+		    	<a href="{{ site.baseurl }}{{ post.url }}">
+			    	<div class="center">
+			        	<div class="thumbnail" style="background: url({{post.thumbnail}}) no-repeat center center; background-size: cover; "/>
+			        </div>
+		        </a>
+	        {% endif %}
 		    {% if post.link %}
 		     <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> - <a href="{{ post.link }}">∞</a>
 		    {% else %}
@@ -15,16 +22,11 @@ title: Jacob Reed - Stream-Of-Consciousness
 		   
 
 		    <br><span class="meta">{{ post.date | date_to_string }}</span></li>
-		    {% if post.thumbnail %}
-		    	<a href="{{ site.baseurl }}{{ post.url }}">
-			    	<div class="center">
-			        	<div class="thumbnail" style="background: url({{post.thumbnail}}) no-repeat center center "/>
-			        </div>
-		        </a>
-	        {% endif %}
+	        	<div class="summary">
 		        {{ post.content | strip_html | truncatewords:75}}
-		        
+		        </div>
 		    </ul>
+		    <hr>
 		{% endfor %}
 
 		{% if paginator.total_pages > 1 %}
