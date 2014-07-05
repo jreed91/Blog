@@ -13,9 +13,9 @@ layout: default
 	<div class="main">
 	    <div class="content">
 	    {% if page.link %}
-	    	<h2 data-scroll-reveal="enter bottom move 10px">{{ page.title }} - <a href="{{ page.link }}">∞</a></h2>
+	    	<h2 data-scroll-reveal="enter bottom move 10px, after 0.1s">{{ page.title }} - <a href="{{ page.link }}">∞</a></h2>
 	    {% else %}
-	    	<h2 data-scroll-reveal="enter bottom move 10px">{{ page.title }}</h2>
+	    	<h2 data-scroll-reveal="enter bottom move 10px, after 0.1s">{{ page.title }}</h2>
 	    {% endif %}
 			
 			<p class="meta">By Jacob Reed - {{ page.date | date_to_string }}</p>

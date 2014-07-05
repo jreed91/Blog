@@ -43,13 +43,13 @@
 	<div class="main">
 	    <div class="content">
 	    
-	    	<h2 data-scroll-reveal="enter bottom move 10px">USA</h2>
+	    	<h2 data-scroll-reveal="enter bottom move 10px, after 0.1s">USA</h2>
 	    
 			
 			<p class="meta">By Jacob Reed - 22 Jun 2014</p>
 
 			<div class="post" data-scroll-reveal="enter bottom move 10px, after 0.1s">
-			<p><img src="/blog/assets/img/USA.jpg" alt="USA"></p>
+			<p><img src="http://i.imgur.com/bFsE935.jpg" alt="USA"></p>
 
 			</div>
 			</div>
@@ -76,8 +76,16 @@
             </div>
           </div>
           <script src="/blog/assets/js/scrollReveal.min.js"></script>
+          <script src="/blog/assets/js/intense.min.js"></script>
           <script>
             window.scrollReveal = new scrollReveal();
+          </script>
+          <script>
+          window.onload = function() {
+              // Intensify all images on the page.
+              var elements = document.querySelectorAll( 'img' );
+              Intense( elements );
+          }
           </script>
           <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
