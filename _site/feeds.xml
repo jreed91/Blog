@@ -7,6 +7,15 @@
 		<atom:link href="http://jreed91.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>California Waiting - Kings of Leon</title>
+				<description>&lt;iframe src=&quot;https://embed.spotify.com/?uri=spotify:track:0txCPGqVRdntoHGc1ZcF6t&quot; width=&quot;640&quot; height=&quot;720&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+</description>
+				<pubDate>Sun, 10 Aug 2014 00:00:00 -0500</pubDate>
+				<link>http://jreed91.github.io/blog/2014/08/10/California-Waiting/</link>
+				<guid isPermaLink="true">http://jreed91.github.io/blog/2014/08/10/California-Waiting/</guid>
+			</item>
+		
+			<item>
 				<title>Don't give up don't ever give up</title>
 				<description>&lt;iframe width=&quot;1280&quot; height=&quot;720&quot; src=&quot;//www.youtube.com/embed/h734W7BdUkI&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
 
@@ -180,17 +189,6 @@
 				<pubDate>Fri, 25 Oct 2013 15:48:40 -0500</pubDate>
 				<link>http://jreed91.github.io/blog/2013/10/25/perfect-day-for-a-fall-run/</link>
 				<guid isPermaLink="true">http://jreed91.github.io/blog/2013/10/25/perfect-day-for-a-fall-run/</guid>
-			</item>
-		
-			<item>
-				<title>Family Tree - Kings of Leon</title>
-				<description>&lt;div&gt;
-&lt;iframe src=&quot;https://embed.spotify.com/?uri=spotify:track:7FB4AMETSW8jALAPNRKw7Y&quot; frameborder=&quot;0&quot; width=&quot;640&quot; height=&quot;720&quot; &gt;.&lt;/iframe&gt;
-&lt;/div&gt;
-</description>
-				<pubDate>Mon, 23 Sep 2013 15:17:25 -0500</pubDate>
-				<link>http://jreed91.github.io/blog/2013/09/23/Family_Tree/</link>
-				<guid isPermaLink="true">http://jreed91.github.io/blog/2013/09/23/Family_Tree/</guid>
 			</item>
 		
 	</channel>
