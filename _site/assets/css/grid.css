@@ -7,18 +7,25 @@
   padding-right: 1em;
   margin-left: auto;
   margin-right: auto;
+  *zoom: 1;
+  max-width: 71em;
+  _width: 71em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
 }
-/* line 38, ../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
 .container:after {
   content: "";
   display: table;
   clear: both;
 }
-@media (min-width: 71em) {
-  /* line 14, ../../_sass/grid.scss */
-  .container {
-    max-width: 71em;
-  }
+/* line 38, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 @media (min-width: 71em) {

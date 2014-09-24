@@ -15,7 +15,7 @@ title: Jacob Reed - Stream-Of-Consciousness
 		        </a>
 	        {% endif %}
 		    {% if post.link %}
-		     <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> - <a href="{{ post.link }}">∞</a>
+		     <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> - <a class="star" href="{{ post.link }}">∞</a>
 		    {% else %}
 		     <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 		    {% endif %}
